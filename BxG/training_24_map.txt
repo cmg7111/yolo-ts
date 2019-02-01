@@ -1,0 +1,420 @@
+
+new
+1300
+ detections_count = 26465, unique_truth_count = 2383
+class_id = 0, name = 0,          ap = 14.54 %
+class_id = 1, name = 1,          ap = 1.15 %
+class_id = 2, name = 2,          ap = 19.04 %
+class_id = 3, name = 3,          ap = 17.27 %
+class_id = 4, name = 4,          ap = 49.47 %
+class_id = 5, name = 5,          ap = 42.38 %
+class_id = 6, name = 6,          ap = 24.10 %
+class_id = 7, name = 7,          ap = 35.52 %
+class_id = 8, name = 8,          ap = 58.66 %
+class_id = 9, name = 9,          ap = 31.07 %
+class_id = 10, name = 10,        ap = 2.02 %
+class_id = 11, name = 11,        ap = 47.87 %
+class_id = 12, name = 12,        ap = 26.91 %
+class_id = 13, name = 13,        ap = 58.74 %
+class_id = 14, name = 14,        ap = 19.75 %
+class_id = 15, name = 15,        ap = 28.28 %
+class_id = 16, name = 16,        ap = 27.95 %
+class_id = 17, name = 17,        ap = 49.40 %
+class_id = 18, name = 18,        ap = 29.84 %
+class_id = 19, name = 19,        ap = 26.23 %
+class_id = 20, name = 20,        ap = 6.56 %
+class_id = 21, name = 21,        ap = 40.44 %
+class_id = 22, name = 22,        ap = 34.34 %
+class_id = 23, name = 23,        ap = 18.81 %
+ for thresh = 0.25, precision = 0.53, recall = 0.34, F1-score = 0.42
+ for thresh = 0.25, TP = 817, FP = 731, FN = 1566, average IoU = 36.65 %
+
+ mean average precision (mAP) = 0.295976, or 29.60 %
+Total Detection Time: 81.000000 Seconds
+
+old
+2300
+ detections_count = 33631, unique_truth_count = 2383
+class_id = 0, name = 0,          ap = 43.08 %
+class_id = 1, name = 1,          ap = 0.77 %
+class_id = 2, name = 2,          ap = 25.53 %
+class_id = 3, name = 3,          ap = 45.38 %
+class_id = 4, name = 4,          ap = 74.69 %
+class_id = 5, name = 5,          ap = 63.57 %
+class_id = 6, name = 6,          ap = 46.76 %
+class_id = 7, name = 7,          ap = 43.52 %
+class_id = 8, name = 8,          ap = 59.88 %
+class_id = 9, name = 9,          ap = 55.41 %
+class_id = 10, name = 10,        ap = 0.22 %
+class_id = 11, name = 11,        ap = 24.03 %
+class_id = 12, name = 12,        ap = 45.64 %
+class_id = 13, name = 13,        ap = 78.12 %
+class_id = 14, name = 14,        ap = 0.41 %
+class_id = 15, name = 15,        ap = 65.13 %
+class_id = 16, name = 16,        ap = 20.87 %
+class_id = 17, name = 17,        ap = 61.76 %
+class_id = 18, name = 18,        ap = 16.25 %
+class_id = 19, name = 19,        ap = 49.28 %
+class_id = 20, name = 20,        ap = 18.81 %
+class_id = 21, name = 21,        ap = 62.23 %
+class_id = 22, name = 22,        ap = 6.29 %
+class_id = 23, name = 23,        ap = 21.57 %
+ for thresh = 0.25, precision = 0.65, recall = 0.49, F1-score = 0.56
+ for thresh = 0.25, TP = 1179, FP = 625, FN = 1204, average IoU = 47.96 %
+
+ mean average precision (mAP) = 0.387167, or 38.72 %
+Total Detection Time: 83.000000 Seconds
+
+2350
+ detections_count = 34827, unique_truth_count = 2383
+class_id = 0, name = 0,          ap = 44.69 %
+class_id = 1, name = 1,          ap = 0.15 %
+class_id = 2, name = 2,          ap = 33.29 %
+class_id = 3, name = 3,          ap = 50.98 %
+class_id = 4, name = 4,          ap = 78.93 %
+class_id = 5, name = 5,          ap = 69.47 %
+class_id = 6, name = 6,          ap = 54.69 %
+class_id = 7, name = 7,          ap = 54.27 %
+class_id = 8, name = 8,          ap = 72.89 %
+class_id = 9, name = 9,          ap = 47.73 %
+class_id = 10, name = 10,        ap = 0.00 %
+class_id = 11, name = 11,        ap = 17.80 %
+class_id = 12, name = 12,        ap = 49.59 %
+class_id = 13, name = 13,        ap = 76.01 %
+class_id = 14, name = 14,        ap = 0.33 %
+class_id = 15, name = 15,        ap = 65.03 %
+class_id = 16, name = 16,        ap = 20.12 %
+class_id = 17, name = 17,        ap = 65.39 %
+class_id = 18, name = 18,        ap = 27.77 %
+class_id = 19, name = 19,        ap = 35.70 %
+class_id = 20, name = 20,        ap = 28.02 %
+class_id = 21, name = 21,        ap = 65.02 %
+class_id = 22, name = 22,        ap = 16.60 %
+class_id = 23, name = 23,        ap = 29.22 %
+ for thresh = 0.25, precision = 0.59, recall = 0.58, F1-score = 0.59
+ for thresh = 0.25, TP = 1377, FP = 947, FN = 1006, average IoU = 43.88 %
+
+ mean average precision (mAP) = 0.418192, or 41.82 %
+Total Detection Time: 84.000000 Seconds
+
+2400
+ detections_count = 27578, unique_truth_count = 2383
+class_id = 0, name = 0,          ap = 64.29 %
+class_id = 1, name = 1,          ap = 2.23 %
+class_id = 2, name = 2,          ap = 33.24 %
+class_id = 3, name = 3,          ap = 71.80 %
+class_id = 4, name = 4,          ap = 71.05 %
+class_id = 5, name = 5,          ap = 55.99 %
+class_id = 6, name = 6,          ap = 59.38 %
+class_id = 7, name = 7,          ap = 57.82 %
+class_id = 8, name = 8,          ap = 65.90 %
+class_id = 9, name = 9,          ap = 62.52 %
+class_id = 10, name = 10,        ap = 0.57 %
+class_id = 11, name = 11,        ap = 30.17 %
+class_id = 12, name = 12,        ap = 48.10 %
+class_id = 13, name = 13,        ap = 79.85 %
+class_id = 14, name = 14,        ap = 0.42 %
+class_id = 15, name = 15,        ap = 49.21 %
+class_id = 16, name = 16,        ap = 43.82 %
+class_id = 17, name = 17,        ap = 67.02 %
+class_id = 18, name = 18,        ap = 35.30 %
+class_id = 19, name = 19,        ap = 64.84 %
+class_id = 20, name = 20,        ap = 23.22 %
+class_id = 21, name = 21,        ap = 66.88 %
+class_id = 22, name = 22,        ap = 25.96 %
+class_id = 23, name = 23,        ap = 32.63 %
+ for thresh = 0.25, precision = 0.63, recall = 0.55, F1-score = 0.59
+ for thresh = 0.25, TP = 1310, FP = 764, FN = 1073, average IoU = 46.77 %
+
+ mean average precision (mAP) = 0.463419, or 46.34 %
+Total Detection Time: 82.000000 Seconds
+
+2460
+ detections_count = 27326, unique_truth_count = 2383
+class_id = 0, name = 0,          ap = 54.57 %
+class_id = 1, name = 1,          ap = 0.87 %
+class_id = 2, name = 2,          ap = 36.60 %
+class_id = 3, name = 3,          ap = 66.44 %
+class_id = 4, name = 4,          ap = 50.69 %
+class_id = 5, name = 5,          ap = 65.51 %
+class_id = 6, name = 6,          ap = 49.75 %
+class_id = 7, name = 7,          ap = 59.55 %
+class_id = 8, name = 8,          ap = 75.34 %
+class_id = 9, name = 9,          ap = 62.95 %
+class_id = 10, name = 10,        ap = 1.13 %
+class_id = 11, name = 11,        ap = 35.91 %
+class_id = 12, name = 12,        ap = 52.40 %
+class_id = 13, name = 13,        ap = 69.92 %
+class_id = 14, name = 14,        ap = 0.32 %
+class_id = 15, name = 15,        ap = 56.99 %
+class_id = 16, name = 16,        ap = 8.57 %
+class_id = 17, name = 17,        ap = 69.75 %
+class_id = 18, name = 18,        ap = 32.79 %
+class_id = 19, name = 19,        ap = 69.40 %
+class_id = 20, name = 20,        ap = 16.57 %
+class_id = 21, name = 21,        ap = 64.42 %
+class_id = 22, name = 22,        ap = 26.48 %
+class_id = 23, name = 23,        ap = 27.08 %
+ for thresh = 0.25, precision = 0.57, recall = 0.58, F1-score = 0.58
+ for thresh = 0.25, TP = 1389, FP = 1051, FN = 994, average IoU = 42.61 %
+
+ mean average precision (mAP) = 0.439167, or 43.92 %
+
+2720
+  detections_count = 16155, unique_truth_count = 2383
+class_id = 0, name = 0,          ap = 70.01 %
+class_id = 1, name = 1,          ap = 0.00 %
+class_id = 2, name = 2,          ap = 44.44 %
+class_id = 3, name = 3,          ap = 68.08 %
+class_id = 4, name = 4,          ap = 77.59 %
+class_id = 5, name = 5,          ap = 67.57 %
+class_id = 6, name = 6,          ap = 61.99 %
+class_id = 7, name = 7,          ap = 67.07 %
+class_id = 8, name = 8,          ap = 73.21 %
+class_id = 9, name = 9,          ap = 84.46 %
+class_id = 10, name = 10,        ap = 3.64 %
+class_id = 11, name = 11,        ap = 38.62 %
+class_id = 12, name = 12,        ap = 60.01 %
+class_id = 13, name = 13,        ap = 69.13 %
+class_id = 14, name = 14,        ap = 1.44 %
+class_id = 15, name = 15,        ap = 70.01 %
+class_id = 16, name = 16,        ap = 52.71 %
+class_id = 17, name = 17,        ap = 76.27 %
+class_id = 18, name = 18,        ap = 55.26 %
+class_id = 19, name = 19,        ap = 68.94 %
+class_id = 20, name = 20,        ap = 40.56 %
+class_id = 21, name = 21,        ap = 69.32 %
+class_id = 22, name = 22,        ap = 52.50 %
+class_id = 23, name = 23,        ap = 42.94 %
+ for thresh = 0.25, precision = 0.70, recall = 0.62, F1-score = 0.66
+ for thresh = 0.25, TP = 1479, FP = 629, FN = 904, average IoU = 52.20 %
+
+ mean average precision (mAP) = 0.548246, or 54.82 %
+Total Detection Time: 85.000000 Seconds
+
+3020
+ detections_count = 12317, unique_truth_count = 2383
+class_id = 0, name = 0,          ap = 69.43 %
+class_id = 1, name = 1,          ap = 0.67 %
+class_id = 2, name = 2,          ap = 67.23 %
+class_id = 3, name = 3,          ap = 90.01 %
+class_id = 4, name = 4,          ap = 73.03 %
+class_id = 5, name = 5,          ap = 79.59 %
+class_id = 6, name = 6,          ap = 83.43 %
+class_id = 7, name = 7,          ap = 68.10 %
+class_id = 8, name = 8,          ap = 81.96 %
+class_id = 9, name = 9,          ap = 86.72 %
+class_id = 10, name = 10,        ap = 7.16 %
+class_id = 11, name = 11,        ap = 70.32 %
+class_id = 12, name = 12,        ap = 63.34 %
+class_id = 13, name = 13,        ap = 82.61 %
+class_id = 14, name = 14,        ap = 1.60 %
+class_id = 15, name = 15,        ap = 68.58 %
+class_id = 16, name = 16,        ap = 77.53 %
+class_id = 17, name = 17,        ap = 54.29 %
+class_id = 18, name = 18,        ap = 65.47 %
+class_id = 19, name = 19,        ap = 77.91 %
+class_id = 20, name = 20,        ap = 57.75 %
+class_id = 21, name = 21,        ap = 67.93 %
+class_id = 22, name = 22,        ap = 68.33 %
+class_id = 23, name = 23,        ap = 46.25 %
+ for thresh = 0.25, precision = 0.74, recall = 0.67, F1-score = 0.71
+ for thresh = 0.25, TP = 1600, FP = 552, FN = 783, average IoU = 55.47 %
+
+ mean average precision (mAP) = 0.628858, or 62.89 %
+Total Detection Time: 88.000000 Seconds
+
+3110
+ detections_count = 12638, unique_truth_count = 2383
+class_id = 0, name = 0,          ap = 62.00 %
+class_id = 1, name = 1,          ap = 0.47 %
+class_id = 2, name = 2,          ap = 58.64 %
+class_id = 3, name = 3,          ap = 84.07 %
+class_id = 4, name = 4,          ap = 76.33 %
+class_id = 5, name = 5,          ap = 79.02 %
+class_id = 6, name = 6,          ap = 85.02 %
+class_id = 7, name = 7,          ap = 71.12 %
+class_id = 8, name = 8,          ap = 81.10 %
+class_id = 9, name = 9,          ap = 84.02 %
+class_id = 10, name = 10,        ap = 12.54 %
+class_id = 11, name = 11,        ap = 75.00 %
+class_id = 12, name = 12,        ap = 77.83 %
+class_id = 13, name = 13,        ap = 64.79 %
+class_id = 14, name = 14,        ap = 15.87 %
+class_id = 15, name = 15,        ap = 64.84 %
+class_id = 16, name = 16,        ap = 39.02 %
+class_id = 17, name = 17,        ap = 68.23 %
+class_id = 18, name = 18,        ap = 76.98 %
+class_id = 19, name = 19,        ap = 87.17 %
+class_id = 20, name = 20,        ap = 56.70 %
+class_id = 21, name = 21,        ap = 73.81 %
+class_id = 22, name = 22,        ap = 72.95 %
+class_id = 23, name = 23,        ap = 50.22 %
+ for thresh = 0.25, precision = 0.70, recall = 0.70, F1-score = 0.70
+ for thresh = 0.25, TP = 1660, FP = 696, FN = 723, average IoU = 49.31 %
+
+ mean average precision (mAP) = 0.632390, or 63.24 %
+Total Detection Time: 87.000000 Seconds
+
+3350
+ detections_count = 10192, unique_truth_count = 2383
+class_id = 0, name = 0,          ap = 74.12 %
+class_id = 1, name = 1,          ap = 2.06 %
+class_id = 2, name = 2,          ap = 70.77 %
+class_id = 3, name = 3,          ap = 70.28 %
+class_id = 4, name = 4,          ap = 62.76 %
+class_id = 5, name = 5,          ap = 80.63 %
+class_id = 6, name = 6,          ap = 65.96 %
+class_id = 7, name = 7,          ap = 60.71 %
+class_id = 8, name = 8,          ap = 72.68 %
+class_id = 9, name = 9,          ap = 61.39 %
+class_id = 10, name = 10,        ap = 5.29 %
+class_id = 11, name = 11,        ap = 86.25 %
+class_id = 12, name = 12,        ap = 68.80 %
+class_id = 13, name = 13,        ap = 81.51 %
+class_id = 14, name = 14,        ap = 25.88 %
+class_id = 15, name = 15,        ap = 76.78 %
+class_id = 16, name = 16,        ap = 83.21 %
+class_id = 17, name = 17,        ap = 74.52 %
+class_id = 18, name = 18,        ap = 71.73 %
+class_id = 19, name = 19,        ap = 71.80 %
+class_id = 20, name = 20,        ap = 62.53 %
+class_id = 21, name = 21,        ap = 69.86 %
+class_id = 22, name = 22,        ap = 67.30 %
+class_id = 23, name = 23,        ap = 49.47 %
+ for thresh = 0.25, precision = 0.73, recall = 0.71, F1-score = 0.72
+ for thresh = 0.25, TP = 1686, FP = 630, FN = 697, average IoU = 52.59 %
+
+ mean average precision (mAP) = 0.631788, or 63.18 %
+Total Detection Time: 80.000000 Seconds
+
+
+4200
+ detections_count = 9712, unique_truth_count = 2383
+class_id = 0, name = 0,          ap = 60.88 %
+class_id = 1, name = 1,          ap = 1.62 %
+class_id = 2, name = 2,          ap = 76.03 %
+class_id = 3, name = 3,          ap = 89.72 %
+class_id = 4, name = 4,          ap = 77.04 %
+class_id = 5, name = 5,          ap = 79.54 %
+class_id = 6, name = 6,          ap = 88.44 %
+class_id = 7, name = 7,          ap = 73.92 %
+class_id = 8, name = 8,          ap = 81.27 %
+class_id = 9, name = 9,          ap = 88.57 %
+class_id = 10, name = 10,        ap = 35.87 %
+class_id = 11, name = 11,        ap = 87.61 %
+class_id = 12, name = 12,        ap = 80.02 %
+class_id = 13, name = 13,        ap = 81.89 %
+class_id = 14, name = 14,        ap = 44.92 %
+class_id = 15, name = 15,        ap = 77.75 %
+class_id = 16, name = 16,        ap = 71.08 %
+class_id = 17, name = 17,        ap = 75.85 %
+class_id = 18, name = 18,        ap = 86.75 %
+class_id = 19, name = 19,        ap = 84.48 %
+class_id = 20, name = 20,        ap = 94.81 %
+class_id = 21, name = 21,        ap = 84.68 %
+class_id = 22, name = 22,        ap = 82.70 %
+class_id = 23, name = 23,        ap = 62.93 %
+ for thresh = 0.25, precision = 0.76, recall = 0.81, F1-score = 0.79
+ for thresh = 0.25, TP = 1941, FP = 606, FN = 442, average IoU = 59.18 %
+
+ mean average precision (mAP) = 0.736814, or 73.68 %
+Total Detection Time: 85.000000 Seconds
+
+4700
+ detections_count = 7253, unique_truth_count = 2383
+class_id = 0, name = 0,          ap = 77.50 %
+class_id = 1, name = 1,          ap = 3.92 %
+class_id = 2, name = 2,          ap = 77.41 %
+class_id = 3, name = 3,          ap = 81.52 %
+class_id = 4, name = 4,          ap = 82.38 %
+class_id = 5, name = 5,          ap = 87.24 %
+class_id = 6, name = 6,          ap = 88.76 %
+class_id = 7, name = 7,          ap = 74.95 %
+class_id = 8, name = 8,          ap = 82.29 %
+class_id = 9, name = 9,          ap = 89.63 %
+class_id = 10, name = 10,        ap = 60.23 %
+class_id = 11, name = 11,        ap = 96.44 %
+class_id = 12, name = 12,        ap = 82.38 %
+class_id = 13, name = 13,        ap = 85.56 %
+class_id = 14, name = 14,        ap = 36.50 %
+class_id = 15, name = 15,        ap = 80.13 %
+class_id = 16, name = 16,        ap = 84.77 %
+class_id = 17, name = 17,        ap = 72.59 %
+class_id = 18, name = 18,        ap = 84.72 %
+class_id = 19, name = 19,        ap = 84.56 %
+class_id = 20, name = 20,        ap = 79.72 %
+class_id = 21, name = 21,        ap = 74.61 %
+class_id = 22, name = 22,        ap = 80.94 %
+class_id = 23, name = 23,        ap = 66.26 %
+ for thresh = 0.25, precision = 0.85, recall = 0.74, F1-score = 0.79
+ for thresh = 0.25, TP = 1764, FP = 322, FN = 619, average IoU = 65.84 %
+
+ mean average precision (mAP) = 0.756251, or 75.63 %
+Total Detection Time: 97.000000 Seconds
+
+5370
+ detections_count = 7016, unique_truth_count = 2383
+class_id = 0, name = 0,          ap = 73.35 %
+class_id = 1, name = 1,          ap = 21.81 %
+class_id = 2, name = 2,          ap = 80.95 %
+class_id = 3, name = 3,          ap = 91.43 %
+class_id = 4, name = 4,          ap = 80.17 %
+class_id = 5, name = 5,          ap = 86.07 %
+class_id = 6, name = 6,          ap = 90.67 %
+class_id = 7, name = 7,          ap = 74.04 %
+class_id = 8, name = 8,          ap = 79.71 %
+class_id = 9, name = 9,          ap = 81.58 %
+class_id = 10, name = 10,        ap = 38.08 %
+class_id = 11, name = 11,        ap = 82.52 %
+class_id = 12, name = 12,        ap = 77.98 %
+class_id = 13, name = 13,        ap = 83.93 %
+class_id = 14, name = 14,        ap = 44.41 %
+class_id = 15, name = 15,        ap = 72.84 %
+class_id = 16, name = 16,        ap = 52.18 %
+class_id = 17, name = 17,        ap = 78.56 %
+class_id = 18, name = 18,        ap = 85.51 %
+class_id = 19, name = 19,        ap = 82.77 %
+class_id = 20, name = 20,        ap = 71.72 %
+class_id = 21, name = 21,        ap = 75.47 %
+class_id = 22, name = 22,        ap = 79.20 %
+class_id = 23, name = 23,        ap = 59.23 %
+ for thresh = 0.25, precision = 0.83, recall = 0.79, F1-score = 0.81
+ for thresh = 0.25, TP = 1884, FP = 378, FN = 499, average IoU = 64.10 %
+
+ mean average precision (mAP) = 0.726741, or 72.67 %
+Total Detection Time: 95.000000 Seconds
+
+ mean_average_precision = 0.726741
+
+5420
+ detections_count = 6959, unique_truth_count = 2383
+class_id = 0, name = 0,          ap = 72.00 %
+class_id = 1, name = 1,          ap = 9.66 %
+class_id = 2, name = 2,          ap = 78.04 %
+class_id = 3, name = 3,          ap = 97.09 %
+class_id = 4, name = 4,          ap = 82.77 %
+class_id = 5, name = 5,          ap = 87.05 %
+class_id = 6, name = 6,          ap = 90.43 %
+class_id = 7, name = 7,          ap = 71.43 %
+class_id = 8, name = 8,          ap = 83.80 %
+class_id = 9, name = 9,          ap = 81.89 %
+class_id = 10, name = 10,        ap = 56.59 %
+class_id = 11, name = 11,        ap = 91.56 %
+class_id = 12, name = 12,        ap = 78.32 %
+class_id = 13, name = 13,        ap = 83.19 %
+class_id = 14, name = 14,        ap = 50.83 %
+class_id = 15, name = 15,        ap = 80.02 %
+class_id = 16, name = 16,        ap = 81.22 %
+class_id = 17, name = 17,        ap = 83.36 %
+class_id = 18, name = 18,        ap = 87.47 %
+class_id = 19, name = 19,        ap = 86.06 %
+class_id = 20, name = 20,        ap = 73.86 %
+class_id = 21, name = 21,        ap = 79.52 %
+class_id = 22, name = 22,        ap = 81.73 %
+class_id = 23, name = 23,        ap = 70.67 %
+ for thresh = 0.25, precision = 0.83, recall = 0.79, F1-score = 0.81
+ for thresh = 0.25, TP = 1878, FP = 388, FN = 505, average IoU = 63.47 %
+
+ mean average precision (mAP) = 0.766067, or 76.61 %
+Total Detection Time: 86.000000 Seconds

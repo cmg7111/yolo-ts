@@ -1,0 +1,195 @@
+cd C:\Users\SOSC2\YOLO\darknet_build
+
+darknet detector train data/ts_24.data yolo-ts_24_anchor.cfg data/backup/yolo-ts_24_anchor_last.weights
+
+darknet detector demo data/ts_24.data yolo-ts_24_anchor.cfg data/backup/yolo-ts_24_anchor_last.weights C:\Users\SOSC2\YOLO\BelgiumTSD\video_test\test.mp4
+
+6200
+ detections_count = 11357, unique_truth_count = 2383
+class_id = 0, name = 0,          ap = 75.47 %
+class_id = 1, name = 1,          ap = 11.11 %
+class_id = 2, name = 2,          ap = 82.44 %
+class_id = 3, name = 3,          ap = 95.05 %
+class_id = 4, name = 4,          ap = 80.08 %
+class_id = 5, name = 5,          ap = 86.44 %
+class_id = 6, name = 6,          ap = 90.58 %
+class_id = 7, name = 7,          ap = 78.69 %
+class_id = 8, name = 8,          ap = 80.88 %
+class_id = 9, name = 9,          ap = 78.66 %
+class_id = 10, name = 10,        ap = 30.03 %
+class_id = 11, name = 11,        ap = 87.55 %
+class_id = 12, name = 12,        ap = 84.04 %
+class_id = 13, name = 13,        ap = 84.65 %
+class_id = 14, name = 14,        ap = 51.36 %
+class_id = 15, name = 15,        ap = 78.78 %
+class_id = 16, name = 16,        ap = 89.21 %
+class_id = 17, name = 17,        ap = 81.00 %
+class_id = 18, name = 18,        ap = 83.34 %
+class_id = 19, name = 19,        ap = 80.58 %
+class_id = 20, name = 20,        ap = 73.97 %
+class_id = 21, name = 21,        ap = 82.29 %
+class_id = 22, name = 22,        ap = 82.44 %
+class_id = 23, name = 23,        ap = 62.97 %
+ for thresh = 0.25, precision = 0.76, recall = 0.86, F1-score = 0.81
+ for thresh = 0.25, TP = 2054, FP = 665, FN = 329, average IoU = 58.00 %
+
+ mean average precision (mAP) = 0.754840, or 75.48 %
+
+
+ 6500
+  detections_count = 7449, unique_truth_count = 2383
+class_id = 0, name = 0,          ap = 62.90 %
+class_id = 1, name = 1,          ap = 30.97 %
+class_id = 2, name = 2,          ap = 83.45 %
+class_id = 3, name = 3,          ap = 96.39 %
+class_id = 4, name = 4,          ap = 79.95 %
+class_id = 5, name = 5,          ap = 87.68 %
+class_id = 6, name = 6,          ap = 90.42 %
+class_id = 7, name = 7,          ap = 76.89 %
+class_id = 8, name = 8,          ap = 77.02 %
+class_id = 9, name = 9,          ap = 86.97 %
+class_id = 10, name = 10,        ap = 26.73 %
+class_id = 11, name = 11,        ap = 86.20 %
+class_id = 12, name = 12,        ap = 84.73 %
+class_id = 13, name = 13,        ap = 83.57 %
+class_id = 14, name = 14,        ap = 56.91 %
+class_id = 15, name = 15,        ap = 79.54 %
+class_id = 16, name = 16,        ap = 78.26 %
+class_id = 17, name = 17,        ap = 80.29 %
+class_id = 18, name = 18,        ap = 85.77 %
+class_id = 19, name = 19,        ap = 86.60 %
+class_id = 20, name = 20,        ap = 78.13 %
+class_id = 21, name = 21,        ap = 81.25 %
+class_id = 22, name = 22,        ap = 87.00 %
+class_id = 23, name = 23,        ap = 69.64 %
+ for thresh = 0.25, precision = 0.80, recall = 0.85, F1-score = 0.82
+ for thresh = 0.25, TP = 2023, FP = 510, FN = 360, average IoU = 62.19 %
+
+ mean average precision (mAP) = 0.765529, or 76.55 %
+
+6850
+  detections_count = 8254, unique_truth_count = 2383
+class_id = 0, name = 0,          ap = 54.87 %
+class_id = 1, name = 1,          ap = 42.51 %
+class_id = 2, name = 2,          ap = 77.59 %
+class_id = 3, name = 3,          ap = 88.36 %
+class_id = 4, name = 4,          ap = 78.27 %
+class_id = 5, name = 5,          ap = 85.30 %
+class_id = 6, name = 6,          ap = 90.83 %
+class_id = 7, name = 7,          ap = 76.45 %
+class_id = 8, name = 8,          ap = 76.20 %
+class_id = 9, name = 9,          ap = 82.25 %
+class_id = 10, name = 10,        ap = 62.34 %
+class_id = 11, name = 11,        ap = 96.08 %
+class_id = 12, name = 12,        ap = 76.62 %
+class_id = 13, name = 13,        ap = 84.25 %
+class_id = 14, name = 14,        ap = 56.29 %
+class_id = 15, name = 15,        ap = 76.59 %
+class_id = 16, name = 16,        ap = 86.51 %
+class_id = 17, name = 17,        ap = 76.82 %
+class_id = 18, name = 18,        ap = 88.36 %
+class_id = 19, name = 19,        ap = 84.88 %
+class_id = 20, name = 20,        ap = 79.16 %
+class_id = 21, name = 21,        ap = 80.83 %
+class_id = 22, name = 22,        ap = 93.32 %
+class_id = 23, name = 23,        ap = 69.26 %
+ for thresh = 0.25, precision = 0.79, recall = 0.85, F1-score = 0.82
+ for thresh = 0.25, TP = 2015, FP = 539, FN = 368, average IoU = 60.48 %
+
+ mean average precision (mAP) = 0.776639, or 77.66 %
+
+
+7200
+  detections_count = 6738, unique_truth_count = 2383
+class_id = 0, name = 0,          ap = 76.05 %
+class_id = 1, name = 1,          ap = 10.58 %
+class_id = 2, name = 2,          ap = 69.43 %
+class_id = 3, name = 3,          ap = 89.53 %
+class_id = 4, name = 4,          ap = 79.20 %
+class_id = 5, name = 5,          ap = 87.39 %
+class_id = 6, name = 6,          ap = 90.75 %
+class_id = 7, name = 7,          ap = 85.53 %
+class_id = 8, name = 8,          ap = 76.19 %
+class_id = 9, name = 9,          ap = 78.90 %
+class_id = 10, name = 10,        ap = 15.55 %
+class_id = 11, name = 11,        ap = 96.28 %
+class_id = 12, name = 12,        ap = 83.75 %
+class_id = 13, name = 13,        ap = 83.40 %
+class_id = 14, name = 14,        ap = 67.04 %
+class_id = 15, name = 15,        ap = 81.13 %
+class_id = 16, name = 16,        ap = 88.42 %
+class_id = 17, name = 17,        ap = 82.98 %
+class_id = 18, name = 18,        ap = 88.48 %
+class_id = 19, name = 19,        ap = 87.90 %
+class_id = 20, name = 20,        ap = 75.13 %
+class_id = 21, name = 21,        ap = 81.24 %
+class_id = 22, name = 22,        ap = 81.71 %
+class_id = 23, name = 23,        ap = 73.33 %
+ for thresh = 0.25, precision = 0.79, recall = 0.86, F1-score = 0.82
+ for thresh = 0.25, TP = 2052, FP = 542, FN = 331, average IoU = 62.78 %
+
+ mean average precision (mAP) = 0.762451, or 76.25 %
+
+
+7700
+  detections_count = 8193, unique_truth_count = 2383
+class_id = 0, name = 0,          ap = 75.95 %
+class_id = 1, name = 1,          ap = 18.91 %
+class_id = 2, name = 2,          ap = 81.59 %
+class_id = 3, name = 3,          ap = 92.30 %
+class_id = 4, name = 4,          ap = 75.67 %
+class_id = 5, name = 5,          ap = 91.84 %
+class_id = 6, name = 6,          ap = 90.83 %
+class_id = 7, name = 7,          ap = 78.16 %
+class_id = 8, name = 8,          ap = 76.39 %
+class_id = 9, name = 9,          ap = 87.05 %
+class_id = 10, name = 10,        ap = 61.32 %
+class_id = 11, name = 11,        ap = 90.41 %
+class_id = 12, name = 12,        ap = 84.92 %
+class_id = 13, name = 13,        ap = 84.86 %
+class_id = 14, name = 14,        ap = 67.40 %
+class_id = 15, name = 15,        ap = 79.06 %
+class_id = 16, name = 16,        ap = 87.45 %
+class_id = 17, name = 17,        ap = 83.21 %
+class_id = 18, name = 18,        ap = 89.74 %
+class_id = 19, name = 19,        ap = 92.99 %
+class_id = 20, name = 20,        ap = 93.94 %
+class_id = 21, name = 21,        ap = 84.45 %
+class_id = 22, name = 22,        ap = 88.00 %
+class_id = 23, name = 23,        ap = 67.62 %
+ for thresh = 0.25, precision = 0.77, recall = 0.91, F1-score = 0.83
+ for thresh = 0.25, TP = 2169, FP = 644, FN = 214, average IoU = 61.13 %
+
+ mean average precision (mAP) = 0.801689, or 80.17 %
+
+
+7900
+  detections_count = 7756, unique_truth_count = 2383
+class_id = 0, name = 0,          ap = 77.20 %
+class_id = 1, name = 1,          ap = 37.07 %
+class_id = 2, name = 2,          ap = 67.51 %
+class_id = 3, name = 3,          ap = 87.11 %
+class_id = 4, name = 4,          ap = 78.62 %
+class_id = 5, name = 5,          ap = 82.45 %
+class_id = 6, name = 6,          ap = 86.71 %
+class_id = 7, name = 7,          ap = 83.23 %
+class_id = 8, name = 8,          ap = 78.05 %
+class_id = 9, name = 9,          ap = 84.41 %
+class_id = 10, name = 10,        ap = 39.82 %
+class_id = 11, name = 11,        ap = 94.20 %
+class_id = 12, name = 12,        ap = 85.27 %
+class_id = 13, name = 13,        ap = 84.49 %
+class_id = 14, name = 14,        ap = 63.06 %
+class_id = 15, name = 15,        ap = 81.35 %
+class_id = 16, name = 16,        ap = 83.99 %
+class_id = 17, name = 17,        ap = 83.01 %
+class_id = 18, name = 18,        ap = 89.39 %
+class_id = 19, name = 19,        ap = 68.22 %
+class_id = 20, name = 20,        ap = 89.42 %
+class_id = 21, name = 21,        ap = 81.81 %
+class_id = 22, name = 22,        ap = 85.55 %
+class_id = 23, name = 23,        ap = 73.59 %
+ for thresh = 0.25, precision = 0.77, recall = 0.88, F1-score = 0.82
+ for thresh = 0.25, TP = 2100, FP = 616, FN = 283, average IoU = 60.89 %
+
+ mean average precision (mAP) = 0.777309, or 77.73 %

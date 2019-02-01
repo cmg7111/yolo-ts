@@ -1,0 +1,6 @@
+/content/drive/dataset/image.000476.jpg
+/content/drive/dataset/image.000460.jpg
+/content/drive/dataset/image.000459.jpg
+/content/drive/dataset/image.000480.jpg
+/content/drive/dataset/image.000481.jpg
+/content/drive/dataset/image.000482.jpg

@@ -1,0 +1,5 @@
+classes=210
+train = C:/Users/SOSC2/YOLO/darknet_build/data/training.txt
+valid = C:/Users/SOSC2/YOLO/darknet_build/data/testing.txt
+names= C:/Users/SOSC2/YOLO/darknet_build/data/ts.names
+backup= C:/Users/SOSC2/YOLO/darknet_build/data/backup

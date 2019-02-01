@@ -1,0 +1,233 @@
+350
+==========original================
+ detections_count = 421173, unique_truth_count = 3696
+class_id = 0, name = rev_tri,    ap = 0.00 %
+class_id = 1, name = thin_up_arrow,      ap = 0.00 %
+class_id = 2, name = yellow sqr,         ap = 0.00 %
+class_id = 3, name = bicycle,    ap = 0.00 %
+class_id = 4, name = blue_up_arrow,      ap = 0.03 %
+class_id = 5, name = line_stop,          ap = 0.01 %
+class_id = 6, name = speed_50,   ap = 0.01 %
+ for thresh = 0.25, precision = -nan(ind), recall = 0.00, F1-score = -nan(ind)
+ for thresh = 0.25, TP = 0, FP = 0, FN = 3696, average IoU = 0.00 %
+
+ mean average precision (mAP) = 0.000072, or 0.01 %
+Total Detection Time: 97.000000 Seconds
+
+
+=========classification========================
+ detections_count = 338072, unique_truth_count = 2042
+class_id = 0, name = rev_tri,    ap = 10.72 %
+class_id = 1, name = thin_up_arrow,      ap = 0.00 %
+class_id = 2, name = yellow sqr,         ap = 10.13 %
+class_id = 3, name = bicycle,    ap = 0.00 %
+class_id = 4, name = blue_up_arrow,      ap = 0.00 %
+class_id = 5, name = line_stop,          ap = 7.05 %
+class_id = 6, name = speed_50,   ap = 14.45 %
+ for thresh = 0.25, precision = -nan(ind), recall = 0.00, F1-score = -nan(ind)
+ for thresh = 0.25, TP = 0, FP = 0, FN = 2042, average IoU = 0.00 %
+
+ mean average precision (mAP) = 0.060506, or 6.05 %
+Total Detection Time: 56.000000 Seconds
+
+750
+==========original================
+ detections_count = 116066, unique_truth_count = 3696
+class_id = 0, name = rev_tri,    ap = 1.77 %
+class_id = 1, name = thin_up_arrow,      ap = 0.17 %
+class_id = 2, name = yellow sqr,         ap = 0.92 %
+class_id = 3, name = bicycle,    ap = 12.26 %
+class_id = 4, name = blue_up_arrow,      ap = 15.16 %
+class_id = 5, name = line_stop,          ap = 7.17 %
+class_id = 6, name = speed_50,   ap = 15.30 %
+ for thresh = 0.25, precision = 0.19, recall = 0.05, F1-score = 0.08
+ for thresh = 0.25, TP = 185, FP = 770, FN = 3511, average IoU = 12.05 %
+
+ mean average precision (mAP) = 0.075359, or 7.54 %
+Total Detection Time: 82.000000 Seconds
+
+
+=========classification========================
+ detections_count = 7073, unique_truth_count = 2042
+class_id = 0, name = rev_tri,    ap = 7.93 %
+class_id = 1, name = thin_up_arrow,      ap = 0.03 %
+class_id = 2, name = yellow sqr,         ap = 42.85 %
+class_id = 3, name = bicycle,    ap = 26.95 %
+class_id = 4, name = blue_up_arrow,      ap = 32.44 %
+class_id = 5, name = line_stop,          ap = 51.90 %
+class_id = 6, name = speed_50,   ap = 32.62 %
+ for thresh = 0.25, precision = 0.39, recall = 0.33, F1-score = 0.36
+ for thresh = 0.25, TP = 675, FP = 1037, FN = 1367, average IoU = 25.66 %
+
+ mean average precision (mAP) = 0.278155, or 27.82 %
+Total Detection Time: 49.000000 Seconds
+
+1550
+==========original================
+ detections_count = 21560, unique_truth_count = 3696
+class_id = 0, name = rev_tri,    ap = 64.36 %
+class_id = 1, name = thin_up_arrow,      ap = 22.65 %
+class_id = 2, name = yellow sqr,         ap = 31.93 %
+class_id = 3, name = bicycle,    ap = 49.02 %
+class_id = 4, name = blue_up_arrow,      ap = 65.48 %
+class_id = 5, name = line_stop,          ap = 59.20 %
+class_id = 6, name = speed_50,   ap = 53.34 %
+ for thresh = 0.25, precision = 0.63, recall = 0.50, F1-score = 0.56
+ for thresh = 0.25, TP = 1858, FP = 1082, FN = 1838, average IoU = 41.85 %
+
+ mean average precision (mAP) = 0.494240, or 49.42 %
+Total Detection Time: 82.000000 Seconds
+
+
+=========classification========================
+ detections_count = 2540, unique_truth_count = 2042
+class_id = 0, name = rev_tri,    ap = 99.96 %
+class_id = 1, name = thin_up_arrow,      ap = 36.71 %
+class_id = 2, name = yellow sqr,         ap = 84.83 %
+class_id = 3, name = bicycle,    ap = 79.82 %
+class_id = 4, name = blue_up_arrow,      ap = 74.33 %
+class_id = 5, name = line_stop,          ap = 90.63 %
+class_id = 6, name = speed_50,   ap = 90.42 %
+ for thresh = 0.25, precision = 0.95, recall = 0.96, F1-score = 0.96
+ for thresh = 0.25, TP = 1966, FP = 97, FN = 76, average IoU = 68.53 %
+
+ mean average precision (mAP) = 0.795302, or 79.53 %
+Total Detection Time: 49.000000 Seconds
+
+1750
+==========original================
+ detections_count = 23960, unique_truth_count = 3696
+class_id = 0, name = rev_tri,    ap = 59.24 %
+class_id = 1, name = thin_up_arrow,      ap = 19.67 %
+class_id = 2, name = yellow sqr,         ap = 31.77 %
+class_id = 3, name = bicycle,    ap = 50.40 %
+class_id = 4, name = blue_up_arrow,      ap = 67.06 %
+class_id = 5, name = line_stop,          ap = 73.56 %
+class_id = 6, name = speed_50,   ap = 57.29 %
+ for thresh = 0.25, precision = 0.60, recall = 0.58, F1-score = 0.59
+ for thresh = 0.25, TP = 2153, FP = 1465, FN = 1543, average IoU = 40.26 %
+
+ mean average precision (mAP) = 0.512839, or 51.28 %
+Total Detection Time: 81.000000 Seconds
+
+2000
+==========original================
+ detections_count = 21632, unique_truth_count = 3696
+class_id = 0, name = rev_tri,    ap = 63.36 %
+class_id = 1, name = thin_up_arrow,      ap = 32.71 %
+class_id = 2, name = yellow sqr,         ap = 40.90 %
+class_id = 3, name = bicycle,    ap = 57.96 %
+class_id = 4, name = blue_up_arrow,      ap = 73.89 %
+class_id = 5, name = line_stop,          ap = 81.21 %
+class_id = 6, name = speed_50,   ap = 63.90 %
+ for thresh = 0.25, precision = 0.67, recall = 0.63, F1-score = 0.65
+ for thresh = 0.25, TP = 2313, FP = 1121, FN = 1383, average IoU = 46.30 %
+
+ mean average precision (mAP) = 0.591338, or 59.13 %
+Total Detection Time: 81.000000 Seconds
+
+2100
+==========original================
+ detections_count = 18944, unique_truth_count = 3696
+class_id = 0, name = rev_tri,    ap = 61.30 %
+class_id = 1, name = thin_up_arrow,      ap = 27.47 %
+class_id = 2, name = yellow sqr,         ap = 43.58 %
+class_id = 3, name = bicycle,    ap = 58.60 %
+class_id = 4, name = blue_up_arrow,      ap = 73.91 %
+class_id = 5, name = line_stop,          ap = 82.13 %
+class_id = 6, name = speed_50,   ap = 64.75 %
+ for thresh = 0.25, precision = 0.69, recall = 0.63, F1-score = 0.66
+ for thresh = 0.25, TP = 2343, FP = 1058, FN = 1353, average IoU = 47.87 %
+
+ mean average precision (mAP) = 0.588204, or 58.82 %
+Total Detection Time: 93.000000 Seconds
+
+=========classification========================
+ detections_count = 2322, unique_truth_count = 2042
+class_id = 0, name = rev_tri,    ap = 90.83 %
+class_id = 1, name = thin_up_arrow,      ap = 57.14 %
+class_id = 2, name = yellow sqr,         ap = 90.91 %
+class_id = 3, name = bicycle,    ap = 90.91 %
+class_id = 4, name = blue_up_arrow,      ap = 100.00 %
+class_id = 5, name = line_stop,          ap = 90.86 %
+class_id = 6, name = speed_50,   ap = 90.82 %
+ for thresh = 0.25, precision = 0.98, recall = 0.99, F1-score = 0.99
+ for thresh = 0.25, TP = 2013, FP = 32, FN = 29, average IoU = 75.14 %
+
+ mean average precision (mAP) = 0.873533, or 87.35 %
+Total Detection Time: 61.000000 Seconds
+
+2150
+ detections_count = 15444, unique_truth_count = 3696
+class_id = 0, name = rev_tri,    ap = 54.28 %
+class_id = 1, name = thin_up_arrow,      ap = 22.84 %
+class_id = 2, name = yellow sqr,         ap = 30.59 %
+class_id = 3, name = bicycle,    ap = 57.72 %
+class_id = 4, name = blue_up_arrow,      ap = 73.93 %
+class_id = 5, name = line_stop,          ap = 72.48 %
+class_id = 6, name = speed_50,   ap = 63.32 %
+ for thresh = 0.25, precision = 0.69, recall = 0.55, F1-score = 0.61
+ for thresh = 0.25, TP = 2027, FP = 892, FN = 1669, average IoU = 48.23 %
+
+ mean average precision (mAP) = 0.535940, or 53.59 %
+Total Detection Time: 82.000000 Seconds
+
+2200
+ detections_count = 16010, unique_truth_count = 3696
+class_id = 0, name = rev_tri,    ap = 63.73 %
+class_id = 1, name = thin_up_arrow,      ap = 32.84 %
+class_id = 2, name = yellow sqr,         ap = 43.62 %
+class_id = 3, name = bicycle,    ap = 60.59 %
+class_id = 4, name = blue_up_arrow,      ap = 75.01 %
+class_id = 5, name = line_stop,          ap = 79.06 %
+class_id = 6, name = speed_50,   ap = 60.52 %
+ for thresh = 0.25, precision = 0.70, recall = 0.65, F1-score = 0.67
+ for thresh = 0.25, TP = 2387, FP = 999, FN = 1309, average IoU = 48.60 %
+
+ mean average precision (mAP) = 0.593382, or 59.34 %
+Total Detection Time: 81.000000 Seconds
+
+2250
+ detections_count = 14303, unique_truth_count = 3696
+class_id = 0, name = rev_tri,    ap = 62.56 %
+class_id = 1, name = thin_up_arrow,      ap = 32.88 %
+class_id = 2, name = yellow sqr,         ap = 38.41 %
+class_id = 3, name = bicycle,    ap = 56.23 %
+class_id = 4, name = blue_up_arrow,      ap = 73.66 %
+class_id = 5, name = line_stop,          ap = 78.57 %
+class_id = 6, name = speed_50,   ap = 60.77 %
+ for thresh = 0.25, precision = 0.73, recall = 0.55, F1-score = 0.62
+ for thresh = 0.25, TP = 2015, FP = 742, FN = 1681, average IoU = 51.79 %
+
+ mean average precision (mAP) = 0.575849, or 57.58 %
+Total Detection Time: 81.000000 Seconds
+
+-----------------correction-----------------------
+ detections_count = 5952, unique_truth_count = 1401
+class_id = 0, name = rev_tri,    ap = 61.37 %
+class_id = 1, name = thin_up_arrow,      ap = 29.75 %
+class_id = 2, name = yellow sqr,         ap = 23.54 %
+class_id = 3, name = bicycle,    ap = 46.89 %
+class_id = 4, name = blue_up_arrow,      ap = 66.59 %
+class_id = 5, name = line_stop,          ap = 77.17 %
+class_id = 6, name = speed_50,   ap = 59.58 %
+ for thresh = 0.25, precision = 0.70, recall = 0.50, F1-score = 0.58
+ for thresh = 0.25, TP = 704, FP = 303, FN = 697, average IoU = 48.66 %
+
+ mean average precision (mAP) = 0.521268, or 52.13 %
+Total Detection Time: 31.000000 Seconds
+
+-------------------small---------------------------
+ detections_count = 3534, unique_truth_count = 800
+class_id = 0, name = rev_tri,    ap = 29.49 %
+class_id = 1, name = thin_up_arrow,      ap = 31.36 %
+class_id = 2, name = yellow sqr,         ap = 32.46 %
+class_id = 3, name = bicycle,    ap = 43.95 %
+class_id = 4, name = blue_up_arrow,      ap = 29.86 %
+class_id = 5, name = line_stop,          ap = 27.51 %
+class_id = 6, name = speed_50,   ap = 44.87 %
+ for thresh = 0.25, precision = 0.60, recall = 0.32, F1-score = 0.41
+ for thresh = 0.25, TP = 254, FP = 172, FN = 546, average IoU = 38.48 %
+
+ mean average precision (mAP) = 0.342142, or 34.21 %
+Total Detection Time: 16.000000 Seconds

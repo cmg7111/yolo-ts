@@ -1,0 +1,3 @@
+/content/drive/dataset/image.005225.jpg
+/content/drive/dataset/image.005226.jpg
+/content/drive/dataset/image.005227.jpg

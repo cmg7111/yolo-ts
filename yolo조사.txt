@@ -1,0 +1,61 @@
+[9000] anchor 사용(hyper parameter)
+[Faster R-CNN] anchor 처음 도입
+anchor box 크기는 dimension cluster(KNN)을 사용해 pre calculate
+9 clusters(i.e. 9 bbp), but arbitrary
+d(box, centroid) = 1 - IOU(box, centroid); remove biased error with bigger boxes
+각 Cell의 anchor box는 bounding box prior (bbp)라고 부름(reference box)
+
+Predict: 좌표(위치, 크기), objectiveness, 클래스
+Faster R-CNN은 여러 scale을 한 브랜치에서 처리
+for each 3 different scales.
+3 bbp for each cell*scale
+3 브랜치
+
+[Faster R-CNN] Cell마다 4개 수치 출력 (tx, ty, tw, th)
+Faster R-CNN은 시그모이드/Cell상대좌표 적용하지 않음
+tx, ty는 sigmoid() 적용해 Cell의 왼쪽 위 코너 기준 bx, by
+tw, th는 bbp크기에 exp() 적용해 곱함 bw, bh
+
+각 bbp에 대한 objectness score(logistic regression)
+1 if 해당 bbp가 ground truth 오브젝트를 가장 많이 덮을 때 
+(Faster RCNN은 Threshold 넘어가면 모두)
+가장 많이는 아니나 Threshhold(0.5)보다 많이 덮으면 무시
+
+([9000]에서는 objectness는 IOU를 예측하고 class는 object가 있다는 가정 하의 조건부 확률)
+
+Loss: 
+Sum of Squared error loss (SSE)
+t-star는 ground truth 바운딩 박스의 bx~bh 로부터 역산
+
+Training:
+Faster R-CNN은 RPN과 Fast R-CNN을 번갈아가며 학습(GAN처럼)
+Faster R-CNN은 reg/cls(objectness/box displacement) 따로 학습
+YOLOv3는?
+
+Base Feature extractor
+-이 위에 3 scale에 각각 대응되는 conv net을 차례로 연결
+--[FPN;Feature Pyramid Network]에서 따옴
+
+After Feature map:
+[Faster R-CNN] cls/reg는 dense network
+YOLOv3은 Fully Convolutional하다
+
+[9000] 일정 배치 수마다 이미지 리사이징 크기를 변경
+
+Image/Filter Pyramid
+-> multiple filters each trained on differently scaled img/feature ext
+Sliding windows detection
+-> multiple sized filters trained from single img/feature ext
+-> (https://cs.brown.edu/courses/cs143/2011/lectures/DPM.pdf)
+-> extremely unbalanced binary classification(object/background)
+Anchor boxes
+-> identically sized filters(small(3x3); single kernel) trained on single img/feature ext
+
+mAP(average AP over all classes)
+AP(given an IOU threshold)
+--sort predictions(given class) by rank
+--calculate cumulative prec and recall
+--draw zigzag graph of recall vs prec
+--apply max(multi step function) and get AUC
+--which equals average of maximum precision at each recall levels
+--
